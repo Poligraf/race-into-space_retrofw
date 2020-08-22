@@ -1,0 +1,11 @@
+prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: PhysicsFS
+Description: PhysicsFS is a library to provide abstract access to various archives.
+URL: https://icculus.org/physfs/
+Version: 3.0.1
+Libs: -L${libdir} -lphysfs
+Cflags: -I${includedir}

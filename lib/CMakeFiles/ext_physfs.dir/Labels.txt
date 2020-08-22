@@ -1,0 +1,13 @@
+# Target labels
+ ext_physfs
+# Source files and their labels
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_physfs
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_physfs.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_physfs-complete.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-install.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-mkdir.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-download.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-update.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-patch.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-configure.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-build.rule

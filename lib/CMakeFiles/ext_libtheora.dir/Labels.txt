@@ -1,0 +1,13 @@
+# Target labels
+ ext_libtheora
+# Source files and their labels
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_libtheora
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_libtheora.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_libtheora-complete.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-install.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-mkdir.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-download.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-update.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-patch.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-configure.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-build.rule

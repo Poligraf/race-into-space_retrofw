@@ -1,0 +1,34 @@
+#ifndef __RACEINTOSPACE_CONFIG_H__
+#define __RACEINTOSPACE_CONFIG_H__
+
+#define RACEINTOSPACE_VERSION_MAJOR @raceintospace_VERSION_MAJOR@
+#define RACEINTOSPACE_VERSION_MINOR @raceintospace_VERSION_MINOR@
+
+#define DEFAULT_DATADIR "@DEFAULT_DATADIR@"
+#define DEFAULT_SAVEDIR "@DEFAULT_SAVEDIR@"
+
+#define PACKAGE_STRING "Race Into Space"
+#define PACKAGE_TARNAME "raceintospace"
+
+#cmakedefine HAVE_LRINT
+
+#cmakedefine HAVE_MKDIR
+#cmakedefine HAVE__MKDIR
+#cmakedefine HAVE_DIRENT_H
+#cmakedefine HAVE_SYS_DIR_H
+#cmakedefine HAVE_SYS_NDIR_H
+
+#ifndef HAVE_SYS_TYPES_H
+#cmakedefine HAVE_SYS_TYPES_H
+#endif  // some compilers define this by default
+
+#cmakedefine HAVE_SYS_TIME_H
+#cmakedefine HAVE_SYS_TIMEB_H
+#cmakedefine HAVE_NDIR_H
+#cmakedefine HAVE_UNISTD_H
+
+#cmakedefine SET_SDL_ICON
+
+#cmakedefine PLATFORM_PROVIDES_UGLY_CRASH
+
+#endif /* __RACEINTOSPACE_CONFIG_H__ */

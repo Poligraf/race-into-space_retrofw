@@ -1,0 +1,7 @@
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-build/CMakeFiles/install/strip.dir
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-build/CMakeFiles/install/local.dir
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-build/CMakeFiles/edit_cache.dir
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-build/CMakeFiles/install.dir
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-build/CMakeFiles/list_install_components.dir
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-build/CMakeFiles/rebuild_cache.dir
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-build/CMakeFiles/theora.dir

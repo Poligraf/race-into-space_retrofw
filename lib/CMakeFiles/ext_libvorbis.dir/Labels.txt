@@ -1,0 +1,13 @@
+# Target labels
+ ext_libvorbis
+# Source files and their labels
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_libvorbis
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_libvorbis.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_libvorbis-complete.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libvorbis-1.3.3/src/ext_libvorbis-stamp/ext_libvorbis-install.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libvorbis-1.3.3/src/ext_libvorbis-stamp/ext_libvorbis-mkdir.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libvorbis-1.3.3/src/ext_libvorbis-stamp/ext_libvorbis-download.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libvorbis-1.3.3/src/ext_libvorbis-stamp/ext_libvorbis-update.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libvorbis-1.3.3/src/ext_libvorbis-stamp/ext_libvorbis-patch.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libvorbis-1.3.3/src/ext_libvorbis-stamp/ext_libvorbis-configure.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libvorbis-1.3.3/src/ext_libvorbis-stamp/ext_libvorbis-build.rule

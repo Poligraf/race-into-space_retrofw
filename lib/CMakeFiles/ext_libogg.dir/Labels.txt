@@ -1,0 +1,13 @@
+# Target labels
+ ext_libogg
+# Source files and their labels
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_libogg
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_libogg.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_libogg-complete.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libogg-1.3.0/src/ext_libogg-stamp/ext_libogg-install.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libogg-1.3.0/src/ext_libogg-stamp/ext_libogg-mkdir.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libogg-1.3.0/src/ext_libogg-stamp/ext_libogg-download.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libogg-1.3.0/src/ext_libogg-stamp/ext_libogg-update.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libogg-1.3.0/src/ext_libogg-stamp/ext_libogg-patch.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libogg-1.3.0/src/ext_libogg-stamp/ext_libogg-configure.rule
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libogg-1.3.0/src/ext_libogg-stamp/ext_libogg-build.rule

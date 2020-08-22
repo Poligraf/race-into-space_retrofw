@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_libtheora"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_libtheora.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_libtheora-complete.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-install.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-mkdir.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-download.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-update.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-patch.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-configure.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/libtheora-1.1.1/src/ext_libtheora-stamp/ext_libtheora-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ext_libtheora"
+		],
+		"name" : "ext_libtheora"
+	}
+}

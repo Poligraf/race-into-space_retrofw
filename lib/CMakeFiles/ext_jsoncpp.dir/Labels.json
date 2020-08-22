@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_jsoncpp"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_jsoncpp.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_jsoncpp-complete.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/jsoncpp-0.5.0/src/ext_jsoncpp-stamp/ext_jsoncpp-install.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/jsoncpp-0.5.0/src/ext_jsoncpp-stamp/ext_jsoncpp-mkdir.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/jsoncpp-0.5.0/src/ext_jsoncpp-stamp/ext_jsoncpp-download.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/jsoncpp-0.5.0/src/ext_jsoncpp-stamp/ext_jsoncpp-update.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/jsoncpp-0.5.0/src/ext_jsoncpp-stamp/ext_jsoncpp-patch.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/jsoncpp-0.5.0/src/ext_jsoncpp-stamp/ext_jsoncpp-configure.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/jsoncpp-0.5.0/src/ext_jsoncpp-stamp/ext_jsoncpp-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ext_jsoncpp"
+		],
+		"name" : "ext_jsoncpp"
+	}
+}

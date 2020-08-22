@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_physfs"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_physfs.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/CMakeFiles/ext_physfs-complete.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-install.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-mkdir.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-download.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-update.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-patch.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-configure.rule"
+		},
+		{
+			"file" : "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/lib/physfs-3.0.1/src/ext_physfs-stamp/ext_physfs-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ext_physfs"
+		],
+		"name" : "ext_physfs"
+	}
+}
