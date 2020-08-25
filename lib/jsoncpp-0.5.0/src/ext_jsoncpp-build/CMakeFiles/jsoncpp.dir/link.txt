@@ -1,2 +1,2 @@
-/usr/bin/ar qc libjsoncpp.a CMakeFiles/jsoncpp.dir/src/lib_json/json_value.cpp.o CMakeFiles/jsoncpp.dir/src/lib_json/json_reader.cpp.o CMakeFiles/jsoncpp.dir/src/lib_json/json_writer.cpp.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-ar qc libjsoncpp.a CMakeFiles/jsoncpp.dir/src/lib_json/json_value.cpp.o CMakeFiles/jsoncpp.dir/src/lib_json/json_reader.cpp.o CMakeFiles/jsoncpp.dir/src/lib_json/json_writer.cpp.o
 /usr/bin/ranlib libjsoncpp.a

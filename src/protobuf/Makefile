@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd
+CMAKE_SOURCE_DIR = /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd
+CMAKE_BINARY_DIR = /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -102,7 +102,7 @@ install/local/fast: preinstall/fast
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,7 +124,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && /usr/bin/cpack --config ./CPackSourceConfig.cmake /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd/CPackSourceConfig.cmake
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && /usr/bin/cpack --config ./CPackSourceConfig.cmake /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -168,7 +168,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -178,14 +178,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && $(CMAKE_COMMAND) -E cmake_progress_start /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd/CMakeFiles /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd/src/protobuf//CMakeFiles/progress.marks
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/protobuf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd/CMakeFiles 0
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && $(CMAKE_COMMAND) -E cmake_progress_start /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/CMakeFiles /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/src/protobuf//CMakeFiles/progress.marks
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/protobuf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/protobuf/clean
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/protobuf/clean
 .PHONY : clean
 
 # The main clean target
@@ -195,22 +195,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/protobuf/preinstall
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/protobuf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/protobuf/preinstall
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/protobuf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/protobuf/CMakeFiles/raceintospace_protobuf.dir/rule:
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/protobuf/CMakeFiles/raceintospace_protobuf.dir/rule
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/protobuf/CMakeFiles/raceintospace_protobuf.dir/rule
 .PHONY : src/protobuf/CMakeFiles/raceintospace_protobuf.dir/rule
 
 # Convenience name for target.
@@ -220,7 +220,7 @@ raceintospace_protobuf: src/protobuf/CMakeFiles/raceintospace_protobuf.dir/rule
 
 # fast build rule for target.
 raceintospace_protobuf/fast:
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && $(MAKE) $(MAKESILENT) -f src/protobuf/CMakeFiles/raceintospace_protobuf.dir/build.make src/protobuf/CMakeFiles/raceintospace_protobuf.dir/build
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && $(MAKE) $(MAKESILENT) -f src/protobuf/CMakeFiles/raceintospace_protobuf.dir/build.make src/protobuf/CMakeFiles/raceintospace_protobuf.dir/build
 .PHONY : raceintospace_protobuf/fast
 
 raceintospace.pb.o: raceintospace.pb.cc.o
@@ -229,7 +229,7 @@ raceintospace.pb.o: raceintospace.pb.cc.o
 
 # target to build an object file
 raceintospace.pb.cc.o:
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && $(MAKE) $(MAKESILENT) -f src/protobuf/CMakeFiles/raceintospace_protobuf.dir/build.make src/protobuf/CMakeFiles/raceintospace_protobuf.dir/raceintospace.pb.cc.o
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && $(MAKE) $(MAKESILENT) -f src/protobuf/CMakeFiles/raceintospace_protobuf.dir/build.make src/protobuf/CMakeFiles/raceintospace_protobuf.dir/raceintospace.pb.cc.o
 .PHONY : raceintospace.pb.cc.o
 
 raceintospace.pb.i: raceintospace.pb.cc.i
@@ -238,7 +238,7 @@ raceintospace.pb.i: raceintospace.pb.cc.i
 
 # target to preprocess a source file
 raceintospace.pb.cc.i:
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && $(MAKE) $(MAKESILENT) -f src/protobuf/CMakeFiles/raceintospace_protobuf.dir/build.make src/protobuf/CMakeFiles/raceintospace_protobuf.dir/raceintospace.pb.cc.i
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && $(MAKE) $(MAKESILENT) -f src/protobuf/CMakeFiles/raceintospace_protobuf.dir/build.make src/protobuf/CMakeFiles/raceintospace_protobuf.dir/raceintospace.pb.cc.i
 .PHONY : raceintospace.pb.cc.i
 
 raceintospace.pb.s: raceintospace.pb.cc.s
@@ -247,7 +247,7 @@ raceintospace.pb.s: raceintospace.pb.cc.s
 
 # target to generate assembly for a file
 raceintospace.pb.cc.s:
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && $(MAKE) $(MAKESILENT) -f src/protobuf/CMakeFiles/raceintospace_protobuf.dir/build.make src/protobuf/CMakeFiles/raceintospace_protobuf.dir/raceintospace.pb.cc.s
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && $(MAKE) $(MAKESILENT) -f src/protobuf/CMakeFiles/raceintospace_protobuf.dir/build.make src/protobuf/CMakeFiles/raceintospace_protobuf.dir/raceintospace.pb.cc.s
 .PHONY : raceintospace.pb.cc.s
 
 # Help Target
@@ -280,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

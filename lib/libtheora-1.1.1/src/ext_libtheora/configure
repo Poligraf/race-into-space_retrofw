@@ -1787,7 +1787,7 @@ uname -v = `(uname -v) 2>/dev/null || echo unknown`
 /bin/uname -X     = `(/bin/uname -X) 2>/dev/null     || echo unknown`
 
 /bin/arch              = `(/bin/arch) 2>/dev/null              || echo unknown`
-/usr/bin/arch -k       = `(/usr/bin/arch -k) 2>/dev/null       || echo unknown`
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-arch -k       = `(/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-arch -k) 2>/dev/null       || echo unknown`
 /usr/convex/getsysinfo = `(/usr/convex/getsysinfo) 2>/dev/null || echo unknown`
 /usr/bin/hostinfo      = `(/usr/bin/hostinfo) 2>/dev/null      || echo unknown`
 /bin/machine           = `(/bin/machine) 2>/dev/null           || echo unknown`

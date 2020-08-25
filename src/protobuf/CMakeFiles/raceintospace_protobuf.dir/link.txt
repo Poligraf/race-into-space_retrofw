@@ -1,2 +1,2 @@
-/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-ar qc libraceintospace_protobuf.a CMakeFiles/raceintospace_protobuf.dir/raceintospace.pb.cc.o
-/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-ranlib libraceintospace_protobuf.a
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-ar qc libraceintospace_protobuf.a CMakeFiles/raceintospace_protobuf.dir/raceintospace.pb.cc.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-ranlib libraceintospace_protobuf.a

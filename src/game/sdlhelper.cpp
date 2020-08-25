@@ -329,8 +329,8 @@ av_process_event(SDL_Event * evp)
 			break;
 
 			case SDL_KEYDOWN:
-				av_mouse_cur_x += 12.5 * (keystate[BUTTON_RIGHT] - keystate[BUTTON_LEFT]);
-				av_mouse_cur_y += 12.5 * (keystate[BUTTON_DOWN]  - keystate[BUTTON_UP]);
+				av_mouse_cur_x += 15 * (keystate[BUTTON_RIGHT] - keystate[BUTTON_LEFT]);
+				av_mouse_cur_y += 15 * (keystate[BUTTON_DOWN]  - keystate[BUTTON_UP]);
 
 				if (av_mouse_cur_x < 0) av_mouse_cur_x = 0;
 				if (av_mouse_cur_x > MAX_X*2) av_mouse_cur_x = MAX_X*2;
@@ -355,6 +355,9 @@ av_process_event(SDL_Event * evp)
 							break;
 
 						case BUTTON_START:
+            c=K_ENTER;
+            break;
+
 						case SDLK_HOME:
 							c = K_HOME;
 							break;
