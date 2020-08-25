@@ -60,7 +60,7 @@ void Graphics::create(const std::string &title, bool fullscreen)
 
     _screen = new LegacySurface(WIDTH, HEIGHT);
 
-    _scaledScreen = SDL_CreateRGBSurface(SDL_SWSURFACE, WIDTH * SCALE, HEIGHT * SCALE, 8, 0, 0, 0, 0);
+    _scaledScreen = SDL_CreateRGBSurface(SDL_HWSURFACE, WIDTH * SCALE, HEIGHT * SCALE, 8, 0, 0, 0, 0);
 
     if (!_scaledScreen) {
         throw std::runtime_error(SDL_GetError());

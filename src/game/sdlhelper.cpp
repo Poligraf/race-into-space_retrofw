@@ -338,7 +338,7 @@ av_process_event(SDL_Event * evp)
 				if (av_mouse_cur_y > MAX_Y*2) av_mouse_cur_y = MAX_Y*2;
 
 				switch (evp->key.keysym.sym) {
-						case SDLK_a:
+						// case SDLK_a:
 						case BUTTON_A:
 							av_mouse_pressed_cur = 1;
 							// av_mouse_pressed_latched = 1;
@@ -354,6 +354,11 @@ av_process_event(SDL_Event * evp)
 							// av_need_update_xy(av_mouse_cur_x - 10, av_mouse_cur_y - 10, av_mouse_cur_x + 10, av_mouse_cur_x + 10);
 							break;
 
+            case BUTTON_MENU:
+            case SDLK_b:
+              c = SDLK_b;
+              break;
+
 						case BUTTON_START:
             c=K_ENTER;
             break;
@@ -363,36 +368,55 @@ av_process_event(SDL_Event * evp)
 							break;
 
 						case BUTTON_SELECT:
-						case SDLK_END:
-							c = K_END;
-							break;
+            case SDLK_e:
+              c = SDLK_e;
+              break;
+						// case SDLK_END:
+						// 	c = K_END;
+						// 	break;
 
 						case BUTTON_L:
-						case SDLK_l:
+						case SDLK_v:
+            c = SDLK_v;
+            break;
+
 						case SDLK_F1:
 							c = 0x3B00;
 							break;
 
 						case BUTTON_R:
-						case SDLK_r:
+						case SDLK_a:
+            c =SDLK_a;
+            SDL_KEYUP:
+            SDL_KEYDOWN:
+            case SDLK_f:
+            c =SDLK_f;
+            // sleep(5);
+            // case SDLK_f:
+            // c =SDLK_f;
+            break;
+
 						case SDLK_F2:
 							c = 0x3C00;
 							break;
 
 						case BUTTON_X:
-						case SDLK_x:
+						case SDLK_c:
+            c = SDLK_c;
+            break;
+
 						case SDLK_F3:
 							c = 0x3D00;
 							break;
 
 						case BUTTON_B:
-						case SDLK_b:
-							c = SDLK_c; // continue
+						case SDLK_t:
+							c = SDLK_t;
 							break;
 
 						case BUTTON_Y:
-						case SDLK_y:
-							c = SDLK_y; // yes
+						case SDLK_r:
+							c = SDLK_r;
 							break;
 
 						default:

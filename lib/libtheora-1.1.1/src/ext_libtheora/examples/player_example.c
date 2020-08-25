@@ -315,7 +315,7 @@ static void open_video(void){
     exit(1);
   }
 
-  screen = SDL_SetVideoMode(w, h, 0, SDL_SWSURFACE);
+  screen = SDL_SetVideoMode(w, h, 0, SDL_HWSURFACE);
   if ( screen == NULL ) {
     fprintf(stderr, "Unable to set %dx%d video: %s\n",
             w,h,SDL_GetError());

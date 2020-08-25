@@ -6,7 +6,7 @@ namespace display
 {
 
 PalettizedSurface::PalettizedSurface(unsigned int width, unsigned int height, const PaletteInterface &palette)
-    : Surface(SDL_CreateRGBSurface(SDL_SWSURFACE, width, height, 8, 0, 0, 0, 0)),
+    : Surface(SDL_CreateRGBSurface(SDL_HWSURFACE, width, height, 8, 0, 0, 0, 0)),
       _palette(_screen)
 {
     // copy the provided palette to the SDL surface's palette

@@ -66,6 +66,22 @@ SDL/SDL.h
 assert.h
 -
 
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/src/display/palettized_surface.cpp
+palettized_surface.h
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/src/display/palettized_surface.h
+assert.h
+-
+
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/src/display/palettized_surface.h
+surface.h
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/src/display/surface.h
+palette.h
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/src/display/palette.h
+graphics.h
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/src/display/graphics.h
+boost/static_assert.hpp
+-
+
 /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/raceintospace-raceintospace-d9cd1cd2/src/display/surface.h
 SDL/SDL.h
 -
